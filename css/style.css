@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #131010; /* Light gray background */
+    
+  }
+  
+  header {
+    background-color: #333; /* Dark gray background */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White text */
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #637571; /* White background */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location {
+    flex-basis: 40%;
+    margin: 20px;
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 20px;
+    border: 1px solid #ccc; /* Medium gray border */
+  }
+  
+  .advocate-details {
+    flex-basis: 60%;
+    margin: 20px;
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 20px;
+    border: 1px solid #ccc; /* Medium gray border */
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 1px solid #ccc; /* Medium gray border */
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333; /* Dark gray text */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  footer {
+    background-color: #333; /* Dark gray background */
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    color: #fff; /* White text */
+  }
+  
+  /* Add media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+    .location, .advocate-details {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
